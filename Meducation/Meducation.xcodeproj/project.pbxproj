@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1F337C2805099C00AC8CC6 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F337B2805099C00AC8CC6 /* QuestionsViewController.swift */; };
+		3D1F337E28050B9600AC8CC6 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F337D28050B9600AC8CC6 /* Trivia.swift */; };
+		3D1F338028050BF300AC8CC6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F337F28050BF300AC8CC6 /* GameViewController.swift */; };
+		3D1F33822805127600AC8CC6 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F33812805127600AC8CC6 /* ScoreViewController.swift */; };
+		3D4B7B4927FCA9EC0075A8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B4827FCA9EC0075A8CC /* AppDelegate.swift */; };
+		3D4B7B4B27FCA9EC0075A8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B4A27FCA9EC0075A8CC /* SceneDelegate.swift */; };
+		3D4B7B4D27FCA9EC0075A8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B4C27FCA9EC0075A8CC /* ViewController.swift */; };
+		3D4B7B5027FCA9EC0075A8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B4E27FCA9EC0075A8CC /* Main.storyboard */; };
+		3D4B7B5227FCA9F40075A8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B5127FCA9F40075A8CC /* Assets.xcassets */; };
+		3D4B7B5527FCA9F40075A8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B5327FCA9F40075A8CC /* LaunchScreen.storyboard */; };
+		3D4B7B6027FCA9F40075A8CC /* MeducationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B5F27FCA9F40075A8CC /* MeducationTests.swift */; };
+		3D4B7B6A27FCA9F40075A8CC /* MeducationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B6927FCA9F40075A8CC /* MeducationUITests.swift */; };
+		3D4B7B6C27FCA9F40075A8CC /* MeducationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B7B6B27FCA9F40075A8CC /* MeducationUITestsLaunchTests.swift */; };
+		3D4B7B7B27FCAB960075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7927FCAB720075A8CC /* Jost-Italic-VariableFont_wght.ttf */; };
+		3D4B7B7C27FCAB9A0075A8CC /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7A27FCAB720075A8CC /* Jost-VariableFont_wght.ttf */; };
+		3D4B7B7D27FCAC380075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7927FCAB720075A8CC /* Jost-Italic-VariableFont_wght.ttf */; };
+		3D4B7B7E27FCAC390075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7927FCAB720075A8CC /* Jost-Italic-VariableFont_wght.ttf */; };
+		3D4B7B7F27FCAC3B0075A8CC /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7A27FCAB720075A8CC /* Jost-VariableFont_wght.ttf */; };
+		3D4B7B8027FCAC3B0075A8CC /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B7B7A27FCAB720075A8CC /* Jost-VariableFont_wght.ttf */; };
+		3DB01E602801399C000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5A280138D3000F6547 /* Quicksand-VariableFont_wght.ttf */; };
+		3DB01E612801399D000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5A280138D3000F6547 /* Quicksand-VariableFont_wght.ttf */; };
+		3DB01E622801399D000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5A280138D3000F6547 /* Quicksand-VariableFont_wght.ttf */; };
+		3DB01E63280139A0000F6547 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5B28013924000F6547 /* Quicksand-Bold.ttf */; };
+		3DB01E64280139A0000F6547 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5B28013924000F6547 /* Quicksand-Bold.ttf */; };
+		3DB01E65280139A1000F6547 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5B28013924000F6547 /* Quicksand-Bold.ttf */; };
+		3DB01E66280139A3000F6547 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5D28013924000F6547 /* Quicksand-Light.ttf */; };
+		3DB01E67280139A4000F6547 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5D28013924000F6547 /* Quicksand-Light.ttf */; };
+		3DB01E68280139A4000F6547 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5D28013924000F6547 /* Quicksand-Light.ttf */; };
+		3DB01E69280139A7000F6547 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5C28013924000F6547 /* Quicksand-Medium.ttf */; };
+		3DB01E6A280139A7000F6547 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5C28013924000F6547 /* Quicksand-Medium.ttf */; };
+		3DB01E6B280139A8000F6547 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5C28013924000F6547 /* Quicksand-Medium.ttf */; };
+		3DB01E6C280139AB000F6547 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5E28013924000F6547 /* Quicksand-Regular.ttf */; };
+		3DB01E6D280139AB000F6547 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5E28013924000F6547 /* Quicksand-Regular.ttf */; };
+		3DB01E6E280139AB000F6547 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5E28013924000F6547 /* Quicksand-Regular.ttf */; };
+		3DB01E6F280139AE000F6547 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5F28013924000F6547 /* Quicksand-SemiBold.ttf */; };
+		3DB01E70280139AF000F6547 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5F28013924000F6547 /* Quicksand-SemiBold.ttf */; };
+		3DB01E71280139AF000F6547 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB01E5F28013924000F6547 /* Quicksand-SemiBold.ttf */; };
+		3DD7E56227FE493F00D5E13A /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56127FE493F00D5E13A /* Letter.swift */; };
+		3DD7E56427FE497900D5E13A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56327FE497900D5E13A /* Word.swift */; };
+		3DD7E56627FE49B500D5E13A /* WordleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56527FE49B500D5E13A /* WordleVC.swift */; };
+		3DD7E56827FE49E600D5E13A /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56727FE49E600D5E13A /* Shakeable.swift */; };
+		3DD7E56A27FE4A1B00D5E13A /* WordleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56927FE4A1B00D5E13A /* WordleInput.swift */; };
+		3DD7E56C27FE4A4A00D5E13A /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E56B27FE4A4A00D5E13A /* dictionary.txt */; };
+		3DD7E56E27FE4DC200D5E13A /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56D27FE4DC200D5E13A /* CreateAccount.swift */; };
+		3DD7E57027FE506F00D5E13A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E56F27FE506F00D5E13A /* Home.swift */; };
+		3DD7E57427FF0A4400D5E13A /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E57327FF0A4400D5E13A /* ChangePassword.swift */; };
+		3DD7E57627FF122E00D5E13A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E57527FF122E00D5E13A /* Tab.swift */; };
+		3DEC20172807B763009F3918 /* M 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC20162807B763009F3918 /* M 2.png */; };
+		3DF191BF2805FF8800544527 /* Destiny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF191BE2805FF8700544527 /* Destiny.swift */; };
+		3DF191C12806018700544527 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF191C02806018700544527 /* Story.swift */; };
+		3DF191C32806020C00544527 /* DestinyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF191C22806020C00544527 /* DestinyVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4B7B5C27FCA9F40075A8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4B7B3D27FCA9EB0075A8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B7B4427FCA9EC0075A8CC;
+			remoteInfo = Meducation;
+		};
+		3D4B7B6627FCA9F40075A8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4B7B3D27FCA9EB0075A8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B7B4427FCA9EC0075A8CC;
+			remoteInfo = Meducation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1F337B2805099C00AC8CC6 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		3D1F337D28050B9600AC8CC6 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		3D1F337F28050BF300AC8CC6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3D1F33812805127600AC8CC6 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		3D4B7B4527FCA9EC0075A8CC /* Meducation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meducation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B7B4827FCA9EC0075A8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D4B7B4A27FCA9EC0075A8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D4B7B4C27FCA9EC0075A8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D4B7B4F27FCA9EC0075A8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4B7B5127FCA9F40075A8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4B7B5427FCA9F40075A8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D4B7B5627FCA9F40075A8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4B7B5B27FCA9F40075A8CC /* MeducationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeducationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B7B5F27FCA9F40075A8CC /* MeducationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeducationTests.swift; sourceTree = "<group>"; };
+		3D4B7B6527FCA9F40075A8CC /* MeducationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeducationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B7B6927FCA9F40075A8CC /* MeducationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeducationUITests.swift; sourceTree = "<group>"; };
+		3D4B7B6B27FCA9F40075A8CC /* MeducationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeducationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D4B7B7927FCAB720075A8CC /* Jost-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3D4B7B7A27FCAB720075A8CC /* Jost-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3DB01E5A280138D3000F6547 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3DB01E5B28013924000F6547 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		3DB01E5C28013924000F6547 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		3DB01E5D28013924000F6547 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		3DB01E5E28013924000F6547 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		3DB01E5F28013924000F6547 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		3DD7E56127FE493F00D5E13A /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		3DD7E56327FE497900D5E13A /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		3DD7E56527FE49B500D5E13A /* WordleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleVC.swift; sourceTree = "<group>"; };
+		3DD7E56727FE49E600D5E13A /* Shakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		3DD7E56927FE4A1B00D5E13A /* WordleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleInput.swift; sourceTree = "<group>"; };
+		3DD7E56B27FE4A4A00D5E13A /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		3DD7E56D27FE4DC200D5E13A /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		3DD7E56F27FE506F00D5E13A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3DD7E57327FF0A4400D5E13A /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		3DD7E57527FF122E00D5E13A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		3DEC20162807B763009F3918 /* M 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M 2.png"; sourceTree = "<group>"; };
+		3DF191BE2805FF8700544527 /* Destiny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny.swift; sourceTree = "<group>"; };
+		3DF191C02806018700544527 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		3DF191C22806020C00544527 /* DestinyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4B7B4227FCA9EC0075A8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B5827FCA9F40075A8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B6227FCA9F40075A8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1F337A2805092900AC8CC6 /* Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				3D1F337B2805099C00AC8CC6 /* QuestionsViewController.swift */,
+				3D1F337D28050B9600AC8CC6 /* Trivia.swift */,
+				3D1F337F28050BF300AC8CC6 /* GameViewController.swift */,
+				3D1F33812805127600AC8CC6 /* ScoreViewController.swift */,
+			);
+			path = Trivia;
+			sourceTree = "<group>";
+		};
+		3D4B7B3C27FCA9EB0075A8CC = {
+			isa = PBXGroup;
+			children = (
+				3DD7E56B27FE4A4A00D5E13A /* dictionary.txt */,
+				3D4B7B4727FCA9EC0075A8CC /* Meducation */,
+				3D4B7B5E27FCA9F40075A8CC /* MeducationTests */,
+				3D4B7B6827FCA9F40075A8CC /* MeducationUITests */,
+				3D4B7B4627FCA9EC0075A8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4B7B4627FCA9EC0075A8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B7B4527FCA9EC0075A8CC /* Meducation.app */,
+				3D4B7B5B27FCA9F40075A8CC /* MeducationTests.xctest */,
+				3D4B7B6527FCA9F40075A8CC /* MeducationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4B7B4727FCA9EC0075A8CC /* Meducation */ = {
+			isa = PBXGroup;
+			children = (
+				3DB01E72280140B9000F6547 /* Accounts */,
+				3D4B7B7827FCAB630075A8CC /* Fonts */,
+				3D4B7B4827FCA9EC0075A8CC /* AppDelegate.swift */,
+				3DD7E57527FF122E00D5E13A /* Tab.swift */,
+				3D4B7B4A27FCA9EC0075A8CC /* SceneDelegate.swift */,
+				3D1F337A2805092900AC8CC6 /* Trivia */,
+				3DD7E56F27FE506F00D5E13A /* Home.swift */,
+				3D4B7B5127FCA9F40075A8CC /* Assets.xcassets */,
+				3D4B7B4E27FCA9EC0075A8CC /* Main.storyboard */,
+				3DF191C22806020C00544527 /* DestinyVC.swift */,
+				3DF191BE2805FF8700544527 /* Destiny.swift */,
+				3DF191C02806018700544527 /* Story.swift */,
+				3D4B7B5327FCA9F40075A8CC /* LaunchScreen.storyboard */,
+				3D4B7B5627FCA9F40075A8CC /* Info.plist */,
+				3DEC20162807B763009F3918 /* M 2.png */,
+				3DB01E5927FF43B8000F6547 /* Wordle */,
+			);
+			path = Meducation;
+			sourceTree = "<group>";
+		};
+		3D4B7B5E27FCA9F40075A8CC /* MeducationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B7B5F27FCA9F40075A8CC /* MeducationTests.swift */,
+			);
+			path = MeducationTests;
+			sourceTree = "<group>";
+		};
+		3D4B7B6827FCA9F40075A8CC /* MeducationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B7B6927FCA9F40075A8CC /* MeducationUITests.swift */,
+				3D4B7B6B27FCA9F40075A8CC /* MeducationUITestsLaunchTests.swift */,
+			);
+			path = MeducationUITests;
+			sourceTree = "<group>";
+		};
+		3D4B7B7827FCAB630075A8CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3DB01E5A280138D3000F6547 /* Quicksand-VariableFont_wght.ttf */,
+				3DB01E5B28013924000F6547 /* Quicksand-Bold.ttf */,
+				3DB01E5D28013924000F6547 /* Quicksand-Light.ttf */,
+				3DB01E5C28013924000F6547 /* Quicksand-Medium.ttf */,
+				3DB01E5E28013924000F6547 /* Quicksand-Regular.ttf */,
+				3DB01E5F28013924000F6547 /* Quicksand-SemiBold.ttf */,
+				3D4B7B7927FCAB720075A8CC /* Jost-Italic-VariableFont_wght.ttf */,
+				3D4B7B7A27FCAB720075A8CC /* Jost-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3DB01E5927FF43B8000F6547 /* Wordle */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7E56927FE4A1B00D5E13A /* WordleInput.swift */,
+				3DD7E56127FE493F00D5E13A /* Letter.swift */,
+				3DD7E56727FE49E600D5E13A /* Shakeable.swift */,
+				3DD7E56527FE49B500D5E13A /* WordleVC.swift */,
+				3DD7E56327FE497900D5E13A /* Word.swift */,
+			);
+			path = Wordle;
+			sourceTree = "<group>";
+		};
+		3DB01E72280140B9000F6547 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B7B4C27FCA9EC0075A8CC /* ViewController.swift */,
+				3DD7E57327FF0A4400D5E13A /* ChangePassword.swift */,
+				3DD7E56D27FE4DC200D5E13A /* CreateAccount.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4B7B4427FCA9EC0075A8CC /* Meducation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4B7B6F27FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "Meducation" */;
+			buildPhases = (
+				3D4B7B4127FCA9EC0075A8CC /* Sources */,
+				3D4B7B4227FCA9EC0075A8CC /* Frameworks */,
+				3D4B7B4327FCA9EC0075A8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meducation;
+			productName = Meducation;
+			productReference = 3D4B7B4527FCA9EC0075A8CC /* Meducation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4B7B5A27FCA9F40075A8CC /* MeducationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4B7B7227FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "MeducationTests" */;
+			buildPhases = (
+				3D4B7B5727FCA9F40075A8CC /* Sources */,
+				3D4B7B5827FCA9F40075A8CC /* Frameworks */,
+				3D4B7B5927FCA9F40075A8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4B7B5D27FCA9F40075A8CC /* PBXTargetDependency */,
+			);
+			name = MeducationTests;
+			productName = MeducationTests;
+			productReference = 3D4B7B5B27FCA9F40075A8CC /* MeducationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D4B7B6427FCA9F40075A8CC /* MeducationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4B7B7527FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "MeducationUITests" */;
+			buildPhases = (
+				3D4B7B6127FCA9F40075A8CC /* Sources */,
+				3D4B7B6227FCA9F40075A8CC /* Frameworks */,
+				3D4B7B6327FCA9F40075A8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4B7B6727FCA9F40075A8CC /* PBXTargetDependency */,
+			);
+			name = MeducationUITests;
+			productName = MeducationUITests;
+			productReference = 3D4B7B6527FCA9F40075A8CC /* MeducationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4B7B3D27FCA9EB0075A8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3D4B7B4427FCA9EC0075A8CC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3D4B7B5A27FCA9F40075A8CC = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3D4B7B4427FCA9EC0075A8CC;
+					};
+					3D4B7B6427FCA9F40075A8CC = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3D4B7B4427FCA9EC0075A8CC;
+					};
+				};
+			};
+			buildConfigurationList = 3D4B7B4027FCA9EB0075A8CC /* Build configuration list for PBXProject "Meducation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4B7B3C27FCA9EB0075A8CC;
+			productRefGroup = 3D4B7B4627FCA9EC0075A8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4B7B4427FCA9EC0075A8CC /* Meducation */,
+				3D4B7B5A27FCA9F40075A8CC /* MeducationTests */,
+				3D4B7B6427FCA9F40075A8CC /* MeducationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4B7B4327FCA9EC0075A8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD7E56C27FE4A4A00D5E13A /* dictionary.txt in Resources */,
+				3D4B7B5527FCA9F40075A8CC /* LaunchScreen.storyboard in Resources */,
+				3D4B7B7B27FCAB960075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */,
+				3DB01E66280139A3000F6547 /* Quicksand-Light.ttf in Resources */,
+				3DB01E6C280139AB000F6547 /* Quicksand-Regular.ttf in Resources */,
+				3D4B7B5227FCA9F40075A8CC /* Assets.xcassets in Resources */,
+				3D4B7B5027FCA9EC0075A8CC /* Main.storyboard in Resources */,
+				3D4B7B7C27FCAB9A0075A8CC /* Jost-VariableFont_wght.ttf in Resources */,
+				3DB01E602801399C000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				3DB01E6F280139AE000F6547 /* Quicksand-SemiBold.ttf in Resources */,
+				3DB01E63280139A0000F6547 /* Quicksand-Bold.ttf in Resources */,
+				3DB01E69280139A7000F6547 /* Quicksand-Medium.ttf in Resources */,
+				3DEC20172807B763009F3918 /* M 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B5927FCA9F40075A8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B7B7D27FCAC380075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */,
+				3DB01E70280139AF000F6547 /* Quicksand-SemiBold.ttf in Resources */,
+				3DB01E612801399D000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				3DB01E6D280139AB000F6547 /* Quicksand-Regular.ttf in Resources */,
+				3D4B7B7F27FCAC3B0075A8CC /* Jost-VariableFont_wght.ttf in Resources */,
+				3DB01E64280139A0000F6547 /* Quicksand-Bold.ttf in Resources */,
+				3DB01E67280139A4000F6547 /* Quicksand-Light.ttf in Resources */,
+				3DB01E6A280139A7000F6547 /* Quicksand-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B6327FCA9F40075A8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B7B7E27FCAC390075A8CC /* Jost-Italic-VariableFont_wght.ttf in Resources */,
+				3DB01E71280139AF000F6547 /* Quicksand-SemiBold.ttf in Resources */,
+				3DB01E622801399D000F6547 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				3DB01E6E280139AB000F6547 /* Quicksand-Regular.ttf in Resources */,
+				3D4B7B8027FCAC3B0075A8CC /* Jost-VariableFont_wght.ttf in Resources */,
+				3DB01E65280139A1000F6547 /* Quicksand-Bold.ttf in Resources */,
+				3DB01E68280139A4000F6547 /* Quicksand-Light.ttf in Resources */,
+				3DB01E6B280139A8000F6547 /* Quicksand-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4B7B4127FCA9EC0075A8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B7B4D27FCA9EC0075A8CC /* ViewController.swift in Sources */,
+				3DD7E56A27FE4A1B00D5E13A /* WordleInput.swift in Sources */,
+				3DD7E57027FE506F00D5E13A /* Home.swift in Sources */,
+				3DD7E57627FF122E00D5E13A /* Tab.swift in Sources */,
+				3D1F337E28050B9600AC8CC6 /* Trivia.swift in Sources */,
+				3D1F337C2805099C00AC8CC6 /* QuestionsViewController.swift in Sources */,
+				3D4B7B4927FCA9EC0075A8CC /* AppDelegate.swift in Sources */,
+				3DD7E56827FE49E600D5E13A /* Shakeable.swift in Sources */,
+				3DF191BF2805FF8800544527 /* Destiny.swift in Sources */,
+				3DD7E56427FE497900D5E13A /* Word.swift in Sources */,
+				3DD7E56627FE49B500D5E13A /* WordleVC.swift in Sources */,
+				3D1F338028050BF300AC8CC6 /* GameViewController.swift in Sources */,
+				3D4B7B4B27FCA9EC0075A8CC /* SceneDelegate.swift in Sources */,
+				3DD7E57427FF0A4400D5E13A /* ChangePassword.swift in Sources */,
+				3DD7E56E27FE4DC200D5E13A /* CreateAccount.swift in Sources */,
+				3DD7E56227FE493F00D5E13A /* Letter.swift in Sources */,
+				3D1F33822805127600AC8CC6 /* ScoreViewController.swift in Sources */,
+				3DF191C32806020C00544527 /* DestinyVC.swift in Sources */,
+				3DF191C12806018700544527 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B5727FCA9F40075A8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B7B6027FCA9F40075A8CC /* MeducationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B7B6127FCA9F40075A8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B7B6A27FCA9F40075A8CC /* MeducationUITests.swift in Sources */,
+				3D4B7B6C27FCA9F40075A8CC /* MeducationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4B7B5D27FCA9F40075A8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B7B4427FCA9EC0075A8CC /* Meducation */;
+			targetProxy = 3D4B7B5C27FCA9F40075A8CC /* PBXContainerItemProxy */;
+		};
+		3D4B7B6727FCA9F40075A8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B7B4427FCA9EC0075A8CC /* Meducation */;
+			targetProxy = 3D4B7B6627FCA9F40075A8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D4B7B4E27FCA9EC0075A8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4B7B4F27FCA9EC0075A8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D4B7B5327FCA9F40075A8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4B7B5427FCA9F40075A8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4B7B6D27FCA9F40075A8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D4B7B6E27FCA9F40075A8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4B7B7027FCA9F40075A8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meducation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Meducation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D4B7B7127FCA9F40075A8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meducation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Meducation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D4B7B7327FCA9F40075A8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeducationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meducation.app/Meducation";
+			};
+			name = Debug;
+		};
+		3D4B7B7427FCA9F40075A8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeducationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meducation.app/Meducation";
+			};
+			name = Release;
+		};
+		3D4B7B7627FCA9F40075A8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeducationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meducation;
+			};
+			name = Debug;
+		};
+		3D4B7B7727FCA9F40075A8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeducationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meducation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4B7B4027FCA9EB0075A8CC /* Build configuration list for PBXProject "Meducation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B7B6D27FCA9F40075A8CC /* Debug */,
+				3D4B7B6E27FCA9F40075A8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4B7B6F27FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "Meducation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B7B7027FCA9F40075A8CC /* Debug */,
+				3D4B7B7127FCA9F40075A8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4B7B7227FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "MeducationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B7B7327FCA9F40075A8CC /* Debug */,
+				3D4B7B7427FCA9F40075A8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4B7B7527FCA9F40075A8CC /* Build configuration list for PBXNativeTarget "MeducationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B7B7627FCA9F40075A8CC /* Debug */,
+				3D4B7B7727FCA9F40075A8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4B7B3D27FCA9EB0075A8CC /* Project object */;
+}

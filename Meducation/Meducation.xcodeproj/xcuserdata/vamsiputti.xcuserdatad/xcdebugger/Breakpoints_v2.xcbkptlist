@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4C609792-F93E-494F-B3B9-D0705391117D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D91BD31-E749-4336-AE34-243AAC722EFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meducation/WordleVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "finishGame()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E28F5F12-A5EE-4853-BCE3-5A740C6B3F83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meducation/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Home"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67F471DC-835B-4F88-9EFC-3E0704808CE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meducation/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Home"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meducation/Trivia/QuestionsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "QuestionsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F - 5b21b8ddfd59188b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meducation.QuestionsViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Meducation.QuestionsViewController"
+                  moduleName = "Meducation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vamsiputti/Desktop/APPS/Meducation/Meducation/Trivia/QuestionsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F - a90ec356cb3d3b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meducation.QuestionsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Meducation.QuestionsViewController"
+                  moduleName = "Meducation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vamsiputti/Desktop/APPS/Meducation/Meducation/Trivia/QuestionsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "171">
+               </Location>
+               <Location
+                  uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F - c26b682e37b8c67c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meducation.QuestionsViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Meducation.QuestionsViewController&gt;"
+                  moduleName = "Meducation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vamsiputti/Desktop/APPS/Meducation/Meducation/Trivia/QuestionsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F - ae1ec6f28ef47ffa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meducation.QuestionsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Meducation.QuestionsViewController&gt;"
+                  moduleName = "Meducation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vamsiputti/Desktop/APPS/Meducation/Meducation/Trivia/QuestionsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "9CE8FB08-5A49-42AC-87AF-5F375747B23F - 3f14092be029f163"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meducation.QuestionsViewController.__deallocating_deinit"
+                  moduleName = "Meducation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vamsiputti/Desktop/APPS/Meducation/Meducation/Trivia/QuestionsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8782B92C-EAE0-4419-AC13-0669A9F78F12"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meducation/DestinyVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "DestinyVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
