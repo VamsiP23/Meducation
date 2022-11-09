@@ -1,6 +1,5 @@
 # Meducation
 
-Hey Guys!
 
 The following folder contains all of the source code for our app, Meducation!
 
