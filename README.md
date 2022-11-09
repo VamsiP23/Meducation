@@ -7,4 +7,6 @@ Due to the app being created using XCode, the app will only be able to be viewed
 
 If on Apple, download the folder to the desktop, and then open the .xcodeproj file to open all the corresponding files and assets at once.
 
+Short Demo: https://www.youtube.com/watch?v=ruKbrR4jYRw&t=48s
+
 Thank you!!
